@@ -11,7 +11,7 @@ import Swal from 'sweetalert2';
 })
 export class LoginComponent implements OnInit {
 
-  username: string = 'joshuaatencia';
+  username: string = '';
 
   constructor(private boardService: BoardService,
     private _router: Router
