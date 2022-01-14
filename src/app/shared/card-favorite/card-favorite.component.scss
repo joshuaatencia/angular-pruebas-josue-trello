@@ -1,0 +1,59 @@
+.card {
+  width: 25rem;
+  height: 16rem;
+  background-color: #7854ae;
+  border-radius: 5%;
+
+  p {
+    color: white;
+
+    span{
+      text-transform: uppercase;
+    }
+  }
+
+  .title {
+    text-transform: uppercase;
+    height: 3.5rem;
+    color: #e2d757;
+  }
+
+  .description {
+    font-size: small;
+    height: 2rem;
+  }
+
+  button {
+    width: 14rem;
+    height: 3rem;
+    border: none;
+    background-color: black;
+    color: #165b8c;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-right: 0.5rem;
+
+    &:hover {
+      background-color: #555555;
+      color: white;
+    }
+  }
+
+  svg {
+    cursor: pointer;
+
+    &:hover{
+      color: white;
+    }
+  }
+
+  .bar {
+    position: relative;
+    background-color: white;
+    height: 0.3rem;
+    width: 21rem;
+    -webkit-box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+}

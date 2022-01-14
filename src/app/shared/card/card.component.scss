@@ -1,0 +1,52 @@
+.card {
+  width: 20rem;
+  height: 17rem;
+  background-color: #5ecbc5;
+  border-radius: 5%;
+
+  p {
+    color: black;
+  }
+
+  .title {
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .description {
+    font-size: small;
+    height: 3rem;
+  }
+
+  button {
+    width: 14rem;
+    height: 3rem;
+    border: none;
+    background-color: black;
+    color: #165b8c;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-right: .5rem;
+
+    &:hover{
+      background-color: #555555;
+      color: white;
+    }
+  }
+  
+  svg{
+      cursor: pointer; 
+
+      &:hover{
+        color: white;
+      }
+  }
+
+  .bar {
+  
+    position: relative;
+    background-color: white;
+    height: 0.3rem;
+    width: 14rem;
+  }
+}

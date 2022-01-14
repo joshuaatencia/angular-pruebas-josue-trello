@@ -1,0 +1,34 @@
+header {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  background-color: #dc5551;
+  height: 5rem;
+
+  .contenido-header {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      color: white;
+      font-size: medium;
+
+      span{
+        color: #E8A43B;
+        text-transform: uppercase;
+      }
+    }
+
+    input{
+        width: 40rem;
+    }
+
+    button{
+        margin-top: -.4rem;
+        background-color: black;
+        border: none;
+        
+    }
+    
+  }
+}

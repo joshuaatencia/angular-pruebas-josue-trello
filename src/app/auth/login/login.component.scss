@@ -1,0 +1,52 @@
+.background{
+  background-color: #0B5596;
+}
+
+.login-contenedor {
+
+  height: 100vh;
+  h2 {
+    color: white;
+    font-size: 7rem;
+  }
+
+
+  .center{
+    display: flex;
+    align-items: center;
+  }
+
+  section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    h2{
+      margin-top: -6rem;
+    }
+  }
+
+  input{
+    padding: .5rem;
+    background-color: #E3ECFE;
+    border: none;
+    width: 30rem;
+  }
+
+  button{
+    margin-left: 17rem;
+    margin-top: -5rem;
+    background-color: black;
+    color: #165B8C;
+    padding: 0.7rem 4rem;
+    border: none;
+
+    &:hover{
+      background-color: #555555;
+      color: white;
+    }
+  }
+}

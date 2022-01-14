@@ -1,0 +1,30 @@
+<div class="contenedor">
+    <div class="row contenido-dash border w-100">
+
+        <div class="col-9">
+            <div class="row">
+                <ng-container *ngFor="let board of boards;">
+
+                    <app-card (newBoard)="crossBoard($event)" *ngIf="!board.favorite" class="m-2 shadow"
+                        [board]="board">
+                    </app-card>
+
+                </ng-container>
+            </div>
+
+        </div>
+
+        <div class="col-3">
+            <div class="contenedor-favorito">
+                <p class="parrafo-favorito text-center">FAVORITOS</p>
+            </div>
+            <div class="cuerpo-favorito border">
+                <ng-container class="favoritos" *ngFor="let board of boards;">
+                    <app-card-favorite (newBoard)="crossBoard($event)" *ngIf="board.favorite" [board]="board">
+                    </app-card-favorite>
+                </ng-container>
+            </div>
+
+        </div>
+    </div>
+</div>

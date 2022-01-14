@@ -1,0 +1,33 @@
+
+.contenido-dash{
+    height: 40rem;
+    margin-top: 5rem;
+    background-color: #EBEAEB;
+    overflow-y: scroll;
+  
+
+    .contenedor-favorito{
+        width: 100%;
+        background-color: black;
+        height: 2rem;
+        margin-bottom: .1rem;
+
+        .parrafo-favorito{
+            color: white;
+            font-size: small;
+        }
+    }
+
+    .cuerpo-favorito{
+        height: 100%;
+        width: 100%;
+        background-color: white;
+    }
+
+    
+    .horizontal{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+    }
+}
